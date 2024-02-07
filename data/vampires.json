@@ -1,0 +1,35 @@
+[
+	{
+		"name": "Florinzia Giovanni",
+		"description": "Giovanni Ancilla, Mastermind of the Fist",
+		"notableTraits": {
+			"Necromancy": 3,
+			"Sepulchre Path": 3,
+			"Ash Path": 2,
+			"Dominate": 3,
+			"Potence": 3,
+			"Auspex": 2
+		},
+		"stats": {
+			"Combat": 0,
+			"Stealth": 0,
+			"Soak": 0,
+			"Strength": 0,
+			"Charisma": 0,
+			"Empathy": 0,
+			"Manipulation": 0,
+			"Self-Control": 0,
+			"Alertness": 0,
+			"Culture": 0,
+			"Knowledge": 0,
+			"Willpower": 0
+		},
+		"tips": ["Looks pretty young (20's). Uses grand gestures when talking. Has a cigarette on a stick (like Cruella) that she doesn't smoke."],
+		"story": [
+			"<p>Worked with Al Capone to smuggle Prosecco for his soirées. She was responsible for hijacking his whiskey shipments from Canada and scapegoating Bugs Moran, which resulted in the Valentine Day's Massacre. Since, Florinzia has been involved with Chicago's alcohol trade, supplying clubs and bars and owning a few of her own.</p>",
+			"<p>During WW2, a huge influx of Black workers came to the steel mills. She left the mills to other Cainites, but made sure the workers were well-supplied in alcohol both after and during work. This increased work-related fatalities. Florinzia's interest in death renewed.</p>",
+			"<p>She met Abdur Rahim Imran. They debated death, afterlife, nihilism. At the same time she attended family meetings, discussed the Endless Night. She decided to move her own agenda with Abdur's stealthy help.</p>",
+			"<p>Together they abducted, tortured and “converted” a Chakravat Mage who had returned traumatized from the War. He started training new recruits. He was however depressed and PTSD and made for a poor leader. After the war Florinzia got approached by a much healthier specimen named Ralph Dustin. Ralph for ghouled, and tasked with dispatching his predecessor so he could take his place. Since, two other Nocche joined the ranks.</p>"
+		]
+	}
+]

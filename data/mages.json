@@ -1,0 +1,85 @@
+[
+	{
+		"name": "Moran Hallel",
+		"description": "",
+		"notableTraits": {
+			"Arete": 5,
+			"Correspondence": 3,
+			"Entropy": 4,
+			"Life": 3,
+			"Matter": 2,
+			"Prime": 3,
+			"Time": 1
+		},
+		"stats": {
+			"Combat": 0,
+			"Stealth": 0,
+			"Soak": 0,
+			"Strength": 0,
+			"Charisma": 0,
+			"Empathy": 0,
+			"Manipulation": 0,
+			"Self-Control": 0,
+			"Alertness": 0,
+			"Culture": 0,
+			"Knowledge": 0,
+			"Willpower": 0
+		},
+		"tips": ["Calm, composed. He's seen death. He's been surrounded by death. He's been forsaken by death. Doesn't really care about danger."]
+	},
+	{
+		"name": "Dahlia Dunst",
+		"description": "",
+		"notableTraits": {
+			"Arete": 3,
+			"Correspondence": 2,
+			"Entropy": 3,
+			"Time": 3
+		},
+		"tips": ["Not confident, but doesn't care. Acts like she has nothing to lose, which makes her dangerous."]
+	},
+	{
+		"name": "Patricia Moxey",
+		"description": "",
+		"notableTraits": {}
+	},
+	{
+		"name": "Shinji Takashi",
+		"description": "",
+		"notableTraits": {}
+	},
+	{
+		"name": "Ralph Dustin",
+		"description": "",
+		"notableTraits": {
+			"Arete": 3,
+			"Entropy": 3,
+			"Spirit": 3,
+			"Correspondence": 2,
+			"Forces": 2,
+			"Potence": 1,
+			"Fortitude": 1
+		},
+		"tips": [
+			"Looks pretty young (late 20's), a bit gangster.",
+			"When he meets people, wonders immediately how he would kill them.",
+			"Jhor, afraid of losing his immortality.",
+			"Any potential harm to Florinzia is a direct affront to him."
+		]
+	},
+	{
+		"name": "Juan Marco Cayetano",
+		"description": "14 y/o recently Awakened Orphan Mage.",
+		"notableTraits": {
+			"Arete": 2,
+			"Correspondence": 2,
+			"Entropy": 2,
+			"Life": 2
+		},
+		"tips": [
+			"Interested in combat-related Magick : stealth, body enhancements, healing, faster movements.",
+			"For now, motivated only in fighting and getting stronger.",
+			"Eventually wants to become a sniper."
+		]
+	}
+]

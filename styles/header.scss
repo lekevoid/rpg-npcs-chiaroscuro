@@ -1,0 +1,39 @@
+header {
+	nav {
+		ul {
+			display: flex;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			&.active {
+				button {
+					border-color: #ddd #ddd transparent #ddd;
+				}
+			}
+
+			&:not(.active) {
+				button:hover {
+					background: transparent linear-gradient(to bottom, rgba(#000, 0) 10%, rgba(#000, 0.2) 110%);
+					border-color: transparent;
+					box-shadow: none;
+					cursor: pointer;
+				}
+			}
+		}
+
+		button {
+			appearance: none;
+			background: transparent none;
+			border-color: transparent;
+			border-radius: 10px 10px 0 0;
+			border-style: ridge;
+			border-width: 2px;
+			cursor: default;
+			padding: 10px 20px;
+			transition: border-color 0.3s;
+		}
+	}
+}
