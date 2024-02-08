@@ -81,5 +81,21 @@
 			"For now, motivated only in fighting and getting stronger.",
 			"Eventually wants to become a sniper."
 		]
+	},
+	{
+		"name": "Taylor Parson",
+		"description": "18 y/o Mercurial. Known as “Alcazar” on the web.",
+		"notableTraits": {
+			"Arete": 3,
+			"Correspondence": 3,
+			"Entropy": 2,
+			"Time": 3
+		},
+		"tips": [
+			"Online persona is bitchy, insulting. In person, behaves like L. Becomes frantic when she finds a solution.",
+			"Always has dark chocolate on her.",
+			"Hates coffee, alcohol, drugs, meat, dairy (especially cheese).",
+			"Changes hair color every few days."
+		]
 	}
 ]
