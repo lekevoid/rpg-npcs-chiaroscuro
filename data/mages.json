@@ -65,6 +65,10 @@
 			"When he meets people, wonders immediately how he would kill them.",
 			"Jhor, afraid of losing his immortality.",
 			"Any potential harm to Florinzia is a direct affront to him."
+		],
+		"story": [
+			"Was once a promising Euthanatos, skilled in combat and stealth. He hunted Cainites as he wanted to get rid of vampires and vampirism. While trying to study the condition, he met Florinzia Giovanni. She eventually convinced him to partake in Vitae so he could study its effects, and he got hooked.",
+			"Initially, Ralph hated himself and tried to end his own life. After a few failed attempts, he resigned himself to making the best of the potentially unlimited time he has. He can still further his goal. To do that though, he needs the Blood, and to do that, he needs to keep his mistress alive and happy. He’s now over 80 years old even though he looks 30, so he doesn’t know what would happen if he stopped taking the Blood."
 		]
 	},
 	{
@@ -84,7 +88,7 @@
 	},
 	{
 		"name": "Taylor Parson",
-		"description": "18 y/o Mercurial. Known as “Alcazar” on the web.",
+		"description": "18 y/o Mercurial, nickname “Alcazar”",
 		"notableTraits": {
 			"Arete": 3,
 			"Correspondence": 3,
@@ -97,5 +101,25 @@
 			"Hates coffee, alcohol, drugs, meat, dairy (especially cheese).",
 			"Changes hair color every few days."
 		]
+	},
+	{
+		"name": "Adrian Cleveland",
+		"description": "27 y/o Chorister",
+		"notableTraits": {
+			"Arete": 3,
+			"Entropy": 2,
+			"Life": 1,
+			"Matter": 1,
+			"Mind": 1,
+			"Prime": 2,
+			"Spirit": 1,
+			"Time": 1
+		},
+		"tips": [
+			"Generous and willing to help if he's convinced it’s God’s will.",
+			"Likes to push others to reach their full potential. “You can lie to yourself but you can’t lie to a mountain.”",
+			"Doesn’t believe in introspection ; unless it's to draw your inner strength and push it outwards."
+		],
+		"story": ["Mountain climber"]
 	}
 ]
