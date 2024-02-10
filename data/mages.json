@@ -25,7 +25,13 @@
 			"Knowledge": 0,
 			"Willpower": 0
 		},
-		"tips": ["Calm, composed. He's seen death. He's been surrounded by death. He's been forsaken by death. Doesn't really care about danger."]
+		"tips": ["Calm, composed. He's seen death. He's been surrounded by death. He's been forsaken by death. Doesn't really care about danger."],
+		"story": [
+			"<p>Born in North Lawndale in 1975. Devout synagogue-goer. Knack for languages : Hebrew, Latin, Greek and Arabic among others. Awakening at 17 during his mother’s funeral. He started having visions of death, drowning... he predicted the flood of 1992. Guided by these visions, prevented several deaths from occurring ; the Wheel hadn’t turned for them yet.</p>",
+			"<p>A Chakravat accepted to teach him. The master was of Indian descent and they weren’t connecting. Moran translated all the teachings to be more in line with his Jewish heritage, “translating” all the Hindu gods to Angels and demons. He worships mostly Azrael (death), Gabriel (messenger, destruction), Apollyon (abyss), and others.</p>",
+			"<p>Long ago, Moran Hallel crossed paths with the Setite Abd ar-Rashid Mukhtar. Initially a knowledge exchange, Moran had visions of Gehenna, foreseeing atrocities orchestrated by Abd. Moran chose to sever their collaboration. He lacks the power to destroy Abd but is determined to thwart his ominous destiny. The encounter left a lingering sense of foreboding, pushing Moran further into his pursuit of safeguarding the delicate balance between life and death.</p>",
+			"<p>Moran is a scholar, and a clairvoyant one. He sees people and places that will brush with tragedy.</p>"
+		]
 	},
 	{
 		"name": "Dahlia Dunst",
@@ -41,7 +47,12 @@
 	{
 		"name": "Patricia Moxey",
 		"description": "",
-		"notableTraits": {}
+		"notableTraits": {},
+		"story": [
+			"<p>Young Patricia was a prodigy with machines and electronics. She had a brilliant career ahead of her. Her dream as a child was to build a universal translator that would work by “reading thoughts”. In college she met Dominik Kostoff, an engineer who wanted to work on making cities more accessible. They eventually married.</p>",
+			"<p>Patricia got pregnant but got a miscarriage. Her Avatar told her something strange : that the child might have been lost because Patricia wasn’t connected to reality. Shortly after, Dominik got into an accident and got a concussion. His brain got messed up. Over the following months his mental health degraded steadily. Patricia felt immense guilt, thinking she was responsible for his accident as well for not being “connected enough”. She started learning neurosciences and found a master of Life magick, a Native American shaman. Given that, she has an odd mix of science and Native American medicine as magick tools. She started experimenting on Dominik to stop his degradation. She doesn’t want to turn him into a machine or improve him. Ut she dreams of getting him back to his old state.</p>",
+			"<p>She continues to try to get Dominik back to his old self. In the meantime she lets him take credit for her inventions, it makes him so happy.</p>"
+		]
 	},
 	{
 		"name": "Shinji Takashi",
@@ -100,6 +111,10 @@
 			"Always has dark chocolate on her.",
 			"Hates coffee, alcohol, drugs, meat, dairy (especially cheese).",
 			"Changes hair color every few days."
+		],
+		"story": [
+			"<p>Orphan, lived in foster home until 14 y/o. Emancipated herself and has been living on her own since.</p>",
+			"<p>Has been making money by investing in the first lucrative round of crypto. She says she knew what was gonna happen but all other Mercurials call her BS on that.</p>"
 		]
 	},
 	{

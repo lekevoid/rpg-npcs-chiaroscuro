@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Francis",
+		"description": "56 y/o Bone Gnawer",
+		"notableTraits": {},
+		"stats": {
+			"Combat": 0,
+			"Stealth": 0,
+			"Soak": 0,
+			"Strength": 0,
+			"Charisma": 0,
+			"Empathy": 0,
+			"Manipulation": 0,
+			"Self-Control": 0,
+			"Alertness": 0,
+			"Culture": 0,
+			"Knowledge": 0,
+			"Willpower": 0
+		},
+		"tips": [],
+		"story": []
+	}
+]

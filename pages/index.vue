@@ -27,6 +27,7 @@
 import allHumansList from "@/data/humans.json";
 import allMagesList from "@/data/mages.json";
 import allVampiresList from "@/data/vampires.json";
+import allWerewolvesList from "@/data/werewolves.json";
 
 const activeTab = ref("mages");
 const characterRestrict = ref([]);
@@ -35,6 +36,7 @@ const tabs = [
 	{ label: "Humans", slug: "humans" },
 	{ label: "Mages", slug: "mages" },
 	{ label: "Vampires", slug: "vampires" },
+	{ label: "Werewolves", slug: "werewolves" },
 ];
 
 function sortBySlug(arr) {
@@ -89,6 +91,7 @@ const allLists = computed(() => {
 		humans: sortBySlug(addSlugsToList(allHumansList)),
 		mages: sortBySlug(addSlugsToList(allMagesList)),
 		vampires: sortBySlug(addSlugsToList(allVampiresList)),
+		werewolves: sortBySlug(addSlugsToList(allWerewolvesList)),
 	};
 });
 
@@ -97,6 +100,7 @@ const allCuratedLists = computed(() => {
 		humans: curateCharList(sortBySlug(addSlugsToList(allHumansList))),
 		mages: curateCharList(sortBySlug(addSlugsToList(allMagesList))),
 		vampires: curateCharList(sortBySlug(addSlugsToList(allVampiresList))),
+		werewolves: curateCharList(sortBySlug(addSlugsToList(allWerewolvesList))),
 	};
 });
 </script>
