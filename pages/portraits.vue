@@ -2,9 +2,6 @@
 	<header>
 		<nav>
 			<ul>
-				<li>
-					<a href="/portraits">Portrait Cards</a>
-				</li>
 				<li v-for="tab in tabs" :class="[{ active: activeTab === tab.slug }]" :key="`tab_tab_${tab.slug}`">
 					<button @click="activeTab = tab.slug">{{ tab.label }}</button>
 				</li>
@@ -21,7 +18,9 @@
 	</nav>
 	<section v-for="tab in tabs" :class="['page', `tab_${tab.slug}`, { active: activeTab === tab.slug }]" :key="`tab_content_${tab.slug}`">
 		<template v-if="allCuratedLists[tab.slug]">
-			<CharacterCard v-for="card in allCuratedLists[tab.slug]" :card="card" :key="`char_card_${tab.slug}`" />
+			<div v-for="card in allCuratedLists[tab.slug]" class="portrait_card" :key="`char_card_${tab.slug}`">
+				<img :src="`/portraits/${card.slug}.jpg`" class="portrait_img" alt="" />
+			</div>
 		</template>
 	</section>
 </template>
@@ -116,15 +115,32 @@ const allCuratedLists = computed(() => {
 .page {
 	align-content: center;
 	display: none;
-	flex-flow: column nowrap;
+	flex-flow: row wrap;
 	justify-content: flex-start;
-	max-width: 8.5in;
+	max-width: 11in;
 	min-width: 7.2in;
-	padding: 0;
+	padding: 1cm;
 	width: 100%;
 
 	&.active {
 		display: flex;
+	}
+}
+
+.portrait_img {
+	align-content: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	height: 8.8cm;
+	width: 6.3cm;
+	object-fit: cover;
+	border: 1px solid #ddd;
+	filter: grayscale(1);
+	opacity: 0.7;
+
+	&:nth-child(8n) {
+		page-break-after: always;
 	}
 }
 </style>
