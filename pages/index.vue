@@ -2,13 +2,13 @@
 	<header>
 		<nav>
 			<ul>
-				<li v-for="tab in tabs" :class="[{ active: activeTab === tab.slug }]">
+				<li v-for="tab in tabs" :class="[{ active: activeTab === tab.slug }]" :key="`tab_tab_${tab.slug}`">
 					<button @click="activeTab = tab.slug">{{ tab.label }}</button>
 				</li>
 			</ul>
 		</nav>
 	</header>
-	<nav v-for="tab in tabs" :class="['characters_restrict', { active: activeTab === tab.slug }]">
+	<nav v-for="tab in tabs" :class="['characters_restrict', { active: activeTab === tab.slug }]" :key="`characters_restrict_${tab.slug}`">
 		<template v-if="allLists[tab.slug]">
 			<div class="character_option" v-for="option in allLists[tab.slug]" :key="option.slug">
 				<input type="checkbox" v-model="characterRestrict" :id="`option_${option.slug}`" :value="option.slug" />
@@ -16,9 +16,9 @@
 			</div>
 		</template>
 	</nav>
-	<section v-for="tab in tabs" :class="['page', `tab_${tab.slug}`, { active: activeTab === tab.slug }]">
+	<section v-for="tab in tabs" :class="['page', `tab_${tab.slug}`, { active: activeTab === tab.slug }]" :key="`tab_content_${tab.slug}`">
 		<template v-if="allCuratedLists[tab.slug]">
-			<CharacterCard v-for="card in allCuratedLists[tab.slug]" :card="card" />
+			<CharacterCard v-for="card in allCuratedLists[tab.slug]" :card="card" :key="`char_card_${tab.slug}`" />
 		</template>
 	</section>
 </template>

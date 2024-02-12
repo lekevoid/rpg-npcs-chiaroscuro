@@ -1,8 +1,8 @@
 [
 	{
 		"name": "Moran Hallel",
-		"logo": "order-of-hermes",
 		"description": "",
+		"logo": "order-of-hermes",
 		"notableTraits": {
 			"Arete": 5,
 			"Correspondence": 3,
@@ -28,15 +28,16 @@
 		},
 		"tips": ["Calm, composed. He's seen death. He's been surrounded by death. He's been forsaken by death. Doesn't really care about danger."],
 		"story": [
-			"<p>Born in North Lawndale in 1975. Devout synagogue-goer. Knack for languages : Hebrew, Latin, Greek and Arabic among others. Awakening at 17 during his mother’s funeral. He started having visions of death, drowning... he predicted the flood of 1992. Guided by these visions, prevented several deaths from occurring ; the Wheel hadn’t turned for them yet.</p>",
-			"<p>A Chakravat accepted to teach him. The master was of Indian descent and they weren’t connecting. Moran translated all the teachings to be more in line with his Jewish heritage, “translating” all the Hindu gods to Angels and demons. He worships mostly Azrael (death), Gabriel (messenger, destruction), Apollyon (abyss), and others.</p>",
+			"<p>Born in North Lawndale in 1975. Devout synagogue-goer. Knack for languages : Hebrew, Latin, Greek and Arabic among others. Awakening at 17 during his mother's funeral. He started having visions of death, drowning... he predicted the flood of 1992. Guided by these visions, prevented several deaths from occurring ; the Wheel hadn't turned for them yet.</p>",
+			"<p>A Chakravat accepted to teach him. The master was of Indian descent and they weren't connecting. Moran translated all the teachings to be more in line with his Jewish heritage, “translating” all the Hindu gods to Angels and demons. He worships mostly Azrael (death), Gabriel (messenger, destruction), Apollyon (abyss), and others.</p>",
 			"<p>Long ago, Moran Hallel crossed paths with the Setite Abd ar-Rashid Mukhtar. Initially a knowledge exchange, Moran had visions of Gehenna, foreseeing atrocities orchestrated by Abd. Moran chose to sever their collaboration. He lacks the power to destroy Abd but is determined to thwart his ominous destiny. The encounter left a lingering sense of foreboding, pushing Moran further into his pursuit of safeguarding the delicate balance between life and death.</p>",
 			"<p>Moran is a scholar, and a clairvoyant one. He sees people and places that will brush with tragedy.</p>"
 		]
 	},
 	{
 		"name": "Dahlia Dunst",
-		"description": "",
+		"description": "15 y/o Euthanatos, pupil of Moran Hallel",
+		"logo": "euthanatos",
 		"notableTraits": {
 			"Arete": 3,
 			"Correspondence": 2,
@@ -47,30 +48,41 @@
 	},
 	{
 		"name": "Patricia Moxey",
-		"description": "",
+		"description": "32 y/o Etherite",
+		"logo": "society-of-ether",
 		"notableTraits": {},
 		"story": [
 			"<p>Young Patricia was a prodigy with machines and electronics. She had a brilliant career ahead of her. Her dream as a child was to build a universal translator that would work by “reading thoughts”. In college she met Dominik Kostoff, an engineer who wanted to work on making cities more accessible. They eventually married.</p>",
-			"<p>Patricia got pregnant but got a miscarriage. Her Avatar told her something strange : that the child might have been lost because Patricia wasn’t connected to reality. Shortly after, Dominik got into an accident and got a concussion. His brain got messed up. Over the following months his mental health degraded steadily. Patricia felt immense guilt, thinking she was responsible for his accident as well for not being “connected enough”. She started learning neurosciences and found a master of Life magick, a Native American shaman. Given that, she has an odd mix of science and Native American medicine as magick tools. She started experimenting on Dominik to stop his degradation. She doesn’t want to turn him into a machine or improve him. Ut she dreams of getting him back to his old state.</p>",
+			"<p>Patricia got pregnant but got a miscarriage. Her Avatar told her something strange : that the child might have been lost because Patricia wasn't connected to reality. Shortly after, Dominik got into an accident and got a concussion. His brain got messed up. Over the following months his mental health degraded steadily. Patricia felt immense guilt, thinking she was responsible for his accident as well for not being “connected enough”. She started learning neurosciences and found a master of Life magick, a Native American shaman. Given that, she has an odd mix of science and Native American medicine as magick tools. She started experimenting on Dominik to stop his degradation. She doesn't want to turn him into a machine or improve him. Ut she dreams of getting him back to his old state.</p>",
 			"<p>She continues to try to get Dominik back to his old self. In the meantime she lets him take credit for her inventions, it makes him so happy.</p>"
 		]
 	},
 	{
 		"name": "Shinji Takashi",
 		"description": "",
-		"notableTraits": {}
+		"logo": "akashic",
+		"notableTraits": {
+			"Arete": 5,
+			"Correspondence": 3,
+			"Entropy": 3,
+			"Spirit": 3,
+			"Forces": 2,
+			"Potence": 1,
+			"Fortitude": 1
+		}
 	},
 	{
 		"name": "Ralph Dustin",
 		"description": "",
+		"logo": "euthanatos",
 		"notableTraits": {
 			"Arete": 3,
-			"Entropy": 3,
-			"Spirit": 3,
 			"Correspondence": 2,
+			"Entropy": 3,
 			"Forces": 2,
-			"Potence": 1,
-			"Fortitude": 1
+			"Spirit": 3,
+			"Fortitude": 1,
+			"Potence": 1
 		},
 		"tips": [
 			"Looks pretty young (late 20's), a bit gangster.",
@@ -79,13 +91,14 @@
 			"Any potential harm to Florinzia is a direct affront to him."
 		],
 		"story": [
-			"Was once a promising Euthanatos, skilled in combat and stealth. He hunted Cainites as he wanted to get rid of vampires and vampirism. While trying to study the condition, he met Florinzia Giovanni. She eventually convinced him to partake in Vitae so he could study its effects, and he got hooked.",
-			"Initially, Ralph hated himself and tried to end his own life. After a few failed attempts, he resigned himself to making the best of the potentially unlimited time he has. He can still further his goal. To do that though, he needs the Blood, and to do that, he needs to keep his mistress alive and happy. He’s now over 80 years old even though he looks 30, so he doesn’t know what would happen if he stopped taking the Blood."
+			"<p>Was once a promising Euthanatos, skilled in combat and stealth. He hunted Cainites as he wanted to get rid of vampires and vampirism. While trying to study the condition, he met Florinzia Giovanni. She eventually convinced him to partake in Vitae so he could study its effects, and he got hooked.</p>",
+			"<p>Initially, Ralph hated himself and tried to end his own life. After a few failed attempts, he resigned himself to making the best of the potentially unlimited time he has. He can still further his goal. To do that though, he needs the Blood, and to do that, he needs to keep his mistress alive and happy. He's now over 80 years old even though he looks 30, so he doesn't know what would happen if he stopped taking the Blood.</p>"
 		]
 	},
 	{
 		"name": "Juan Marco Cayetano",
 		"description": "14 y/o recently Awakened Orphan Mage.",
+		"logo": "euthanatos",
 		"notableTraits": {
 			"Arete": 2,
 			"Correspondence": 2,
@@ -101,6 +114,7 @@
 	{
 		"name": "Taylor Parson",
 		"description": "18 y/o Mercurial, nickname “Alcazar”",
+		"logo": "virtual-adepts",
 		"notableTraits": {
 			"Arete": 3,
 			"Correspondence": 3,
@@ -115,12 +129,15 @@
 		],
 		"story": [
 			"<p>Orphan, lived in foster home until 14 y/o. Emancipated herself and has been living on her own since.</p>",
-			"<p>Has been making money by investing in the first lucrative round of crypto. She says she knew what was gonna happen but all other Mercurials call her BS on that.</p>"
+			"<p>Has been making money by investing in the first lucrative round of crypto. She says she knew what was gonna happen but all other Mercurials call her BS on that.</p>",
+			"<p>Most of her Magick centers around statistics, predictive algorithms, probabilities… She sees them and can manipulate them to an extent. With the tooling to match : computers, algorithms etc.</p>",
+			"<p>She embodies the image of the Mage who always seems to be at the right place at the right time, and also seems drawn to nexuses of conjecture.</p>"
 		]
 	},
 	{
 		"name": "Adrian Cleveland",
 		"description": "27 y/o Chorister",
+		"logo": "celestial-chorus",
 		"notableTraits": {
 			"Arete": 3,
 			"Entropy": 2,
@@ -132,30 +149,128 @@
 			"Time": 1
 		},
 		"tips": [
-			"Generous and willing to help if he's convinced it’s God’s will.",
-			"Likes to push others to reach their full potential. “You can lie to yourself but you can’t lie to a mountain.”",
-			"Doesn’t believe in introspection ; unless it's to draw your inner strength and push it outwards."
+			"Generous and willing to help if he's convinced it's God's will.",
+			"Likes to push others to reach their full potential. “You can lie to yourself but you can't lie to a mountain.”",
+			"Doesn't believe in introspection ; unless it's to draw your inner strength and push it outwards."
 		],
-		"story": ["Mountain climber"]
+		"story": ["<p>Mountain climber</p>"]
 	},
 	{
-		"name": "Adrian Cleveland",
-		"description": "27 y/o Chorister",
+		"name": "Fred Sheppard",
+		"description": "19 y/o Hermetic",
+		"logo": "order-of-hermes",
 		"notableTraits": {
 			"Arete": 3,
-			"Entropy": 2,
+			"Forces": 3,
+			"Life": 3,
+			"Mind": 2,
+			"Prime": 2
+		},
+		"tips": ["In a wheelchair. Very intellectual. Optimistic, hopeful, and overly eager to help, even if it gets him in trouble sometimes."],
+		"story": [
+			"<p>Partly motivated by his own disability, has always wanted to be a neurosurgeon and/or stem cell researcher. He sees magick as a capacity for humans to focus and access parts of the brain that tend to be overloaded.</p>"
+		]
+	},
+	{
+		"name": "Khalan Synesis",
+		"description": "60 y/o Hermetic Master",
+		"logo": "order-of-hermes",
+		"notableTraits": {
+			"Arete": 5,
+			"Correspondence": 3,
+			"Entropy": 1,
+			"Forces": 5,
 			"Life": 1,
-			"Matter": 1,
+			"Matter": 3,
 			"Mind": 1,
-			"Prime": 2,
-			"Spirit": 1,
+			"Prime": 4,
+			"Spirit": 5,
 			"Time": 1
 		},
 		"tips": [
-			"Generous and willing to help if he's convinced it’s God’s will.",
-			"Likes to push others to reach their full potential. “You can lie to yourself but you can’t lie to a mountain.”",
-			"Doesn’t believe in introspection ; unless it's to draw your inner strength and push it outwards."
+			"Generally detached, but very susceptible when provoked.",
+			"Has no time for reckless, unmotivated or stupid neonates but will trickle down knowledge to those who deprecate themselves."
 		],
-		"story": ["Mountain climber"]
+		"story": [
+			"<p>Was initiated to Magick by Dreamspeakers (sort-of) while he was on humanitarian missions in Congo.</p>",
+			"<p>Came back to the USA to serve in the army during the invasion of Grenada. Got frustrated by the gentle shamanic approach to spirituality. Discovered an abandonned cache in Grenada which hosted Hermetic books. Back home, joined a Freemason lodge who then  introduced him to the Order of Hermes.</p>",
+			"<p>Quickly got tired of controlling spirits to ask for small services. Started studying quantum physics, especially String theory, and got curious about the forces that exist in the Umbra.</p>"
+		]
+	},
+	{
+		"name": "Simon Theletos",
+		"description": "20 y/o Hermetic Adept",
+		"logo": "order-of-hermes",
+		"notableTraits": {
+			"Arete": 3,
+			"Correspondence": 2,
+			"Forces": 3,
+			"Matter": 2,
+			"Prime": 3,
+			"Time": 1
+		},
+		"tips": [
+			"Think Anakin Skywalker in Clone Wars. Arrogant but good-hearted, rogue, self-righteous, very talented.",
+			"Magick is NOT science. Magick is like emotions, it's definitely real, but it can't be reproduced and codified like science can."
+		],
+		"story": [
+			"<p>His Resonance has been visible very early. He was adopted into the sanctum and groomed for his Awakening since he was 8. When he did Awaken he already knew much of the theory. A quick study, he's been told that h's promised to great things, and he takes that seriously.</p>",
+			"<p>Specializes in “combat” magick. In the Sanctum he uses spell tags with Enochian text, magical weapons and amulets, sigil wards, etc.</p>",
+			"<p>His favorite street-level weapons are small electrified batons and whips ; these deal electrical/Prime damage and can also light sparks and deal fire hits. Otherwise he tries to make the environment work for him, e.g. fighting in a back alley where a whole staircase will fall down on his foe as a Forces attack.</p>"
+		]
+	},
+	{
+		"name": "Kaya Thunderwalker",
+		"description": "38 y/o Dreamspeaker Warrior-Shaman",
+		"logo": "dreamspeakers",
+		"notableTraits": {
+			"Arete": 3,
+			"Correspondence": 2,
+			"Forces": 3,
+			"Matter": 2,
+			"Prime": 3,
+			"Time": 1
+		},
+		"tips": [
+			"In combat, fluid and precise, dance-like movements.",
+			"When communing with spirits, her eyes glow with an otherworldly light.",
+			"Often imparts wisdom through traditional Apache proverbs and tales."
+		],
+		"story": [
+			"<h2>Proverbs</h2>",
+			"<p>“The soul would have no rainbow if the eyes had no tears.”</p>",
+			"<p>“It is better to have less thunder in the mouth and more lightning in the hand.”</p>",
+			"<p>“Wisdom sits in places.”</p>",
+			"<p>“When you were born, you cried, and the world rejoiced. Live your life in such a way that when you die, everyone including yourself rejoices.”</p>",
+			"<p>“A brave person dies once, a coward a thousand times.”</p>",
+			"<p>“He who would learn to fly one day must first learn to stand and walk and run and climb and dance.”</p>",
+			"<p>“Take the wisdom of the elders and infuse it with the youth's spirit.”</p>"
+		]
+	},
+	{
+		"name": "Serenity Foster",
+		"description": "42 y/o Verbena",
+		"logo": "verbena",
+		"notableTraits": {
+			"Arete": 4,
+			"Correspondence": 1,
+			"Forces": 1,
+			"Life": 4,
+			"Matter": 1,
+			"Prime": 4,
+			"Spirit": 1
+		},
+		"tips": ["Think Danielle Maitreya"],
+		"story": [
+			"<h2>Story</h2>",
+			"<p>Mysterious for now… </p>",
+			"<p><i>Idea : She was a unit with Smith ? Smith was the one to provide her with her daggers ?</i></p>",
+			"<h2>Magick & Foci</h2>",
+			"<p>She sees the world as being poisoned. Magick is an act of influencing the Body-World like a virus.</p>",
+			"<p><b>Daggers</b> : She has an impressive collection of very decorated daggers for a variety of effects. She says the power comes from that they were made with love and intent.</p>",
+			"<p><b>Herbs, Potions, Ointments</b> : Also for a variety of effects. She will not do poisons however.</p>",
+			"<p><b>Crystals</b> : Used on humans and also in her garden to promote plant growth, protection and health.</p>",
+			"<p><b>Massage</b> : She does Reiki, Tak Sen and others.</p>"
+		]
 	}
 ]

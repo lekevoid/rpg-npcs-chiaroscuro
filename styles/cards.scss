@@ -54,17 +54,36 @@
 	overflow: hidden;
 	width: calc(96% - 152px);
 
-	img {
-		display: block;
-		filter: grayscale(1);
-		height: 100%;
-		left: 0;
-		object-fit: cover;
-		object-position: center center;
-		opacity: 0.6;
-		position: absolute;
-		top: 0;
-		width: 100%;
+}
+
+.portrait_img {
+	display: block;
+	filter: grayscale(1);
+	height: 100%;
+	left: 0;
+	object-fit: cover;
+	object-position: center center;
+	opacity: 0.6;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.portrait_logo {
+	border: 0 none;
+	bottom: 5px;
+	filter: invert(1) grayscale(1) brightness(100) drop-shadow(1px 1px 1px #000) drop-shadow(1px 1px 2px #000);
+	height: auto;
+	object-fit: contain;
+	position: absolute;
+	right: 5px;
+	width: 30%;
+	z-index: 10;
+
+	&.akashic,
+	&.society-of-ether {
+		filter: grayscale(1) drop-shadow(1px 1px 1px #000) drop-shadow(1px 1px 2px #000);
 	}
 }
 
