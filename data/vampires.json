@@ -2,6 +2,7 @@
 	{
 		"name": "Florinzia Giovanni",
 		"description": "Giovanni Ancilla, Mastermind of the Fist",
+		"logo": "giovanni",
 		"notableTraits": {
 			"Necromancy": 3,
 			"Sepulchre Path": 3,
@@ -30,6 +31,74 @@
 			"<p>During WW2, a huge influx of Black workers came to the steel mills. She left the mills to other Cainites, but made sure the workers were well-supplied in alcohol both after and during work. This increased work-related fatalities. Florinzia's interest in death renewed.</p>",
 			"<p>She met Abdur Rahim Imran. They debated death, afterlife, nihilism. At the same time she attended family meetings, discussed the Endless Night. She decided to move her own agenda with Abdur's stealthy help.</p>",
 			"<p>Together they abducted, tortured and “converted” a Chakravat Mage who had returned traumatized from the War. He started training new recruits. He was however depressed and PTSD and made for a poor leader. After the war Florinzia got approached by a much healthier specimen named Ralph Dustin. Ralph for ghouled, and tasked with dispatching his predecessor so he could take his place. Since, two other Nocche joined the ranks.</p>"
+		]
+	},
+	{
+		"name": "Abd ar-Rashid Mukhtar",
+		"description": "Setite Ancilla from Egypt",
+		"logo": "setite",
+		"notableTraits": {
+			"Serpentis": 4,
+			"Obfuscate": 3,
+			"Presence": 2,
+			"Auspex": 3,
+			"Fortitude": 2
+		},
+		"stats": {
+			"Combat": 0,
+			"Stealth": 0,
+			"Soak": 0,
+			"Strength": 0,
+			"Charisma": 0,
+			"Empathy": 0,
+			"Manipulation": 0,
+			"Self-Control": 0,
+			"Alertness": 0,
+			"Culture": 0,
+			"Knowledge": 0,
+			"Willpower": 0
+		},
+		"tips": [
+			"Classy collector of ancient artefacts. Has one principle : he’s willing to give away one small piece of knowledge to each individual. Forever after though, all knowledge must be traded, not granted as a favor."
+		],
+		"story": [
+			"<p>Born in the late 1800’s in Sohag, Egypt. Initiated into the Setites by a woman who saw a love and taste for rare, shiny and ancient things in him. During WWI and the fall of the Ottoman Empire, he got a call from Set prompting him to travel to America, a corrupt land in need of more corruption. He quickly drew the ire of Florinzia Giovanni by wanting to expand into her territory. While she managed the hautes soirées and séances, Rashid focused on money and real estate.</p>",
+			"<h2>Wants :</h2>",
+			"<p>- A waterfront residence in Hyde Park that has a rich history and a secret bunker underneath. The current owners are not keen on selling though… They’re a couple of Hunters. There’s a reason they have a bunker, damnit !</p>",
+			"<p>- A golden scarab jewel has been sold at an auction recently. The owner has immediately sold it though, they don’t know to whom. Rashid lost its trace. Secret : it is said that this artefact can open a portal to Duat. Indeed, the artefact will eventually get into the hands of a Marauder who will use it to summon an Egyptian monster from the Umbra.</p>"
+		]
+	},
+	{
+		"name": "Penelope Rambrandt",
+		"description": "Toreador Ancilla",
+		"logo": "toreador",
+		"notableTraits": {
+			"Auspex": 3,
+			"Celerity": 2,
+			"Presence": 3,
+			"Dominate": 3
+		},
+		"stats": {
+			"Combat": 0,
+			"Stealth": 0,
+			"Soak": 0,
+			"Strength": 0,
+			"Charisma": 0,
+			"Empathy": 0,
+			"Manipulation": 0,
+			"Self-Control": 0,
+			"Alertness": 0,
+			"Culture": 0,
+			"Knowledge": 0,
+			"Willpower": 0
+		},
+		"tips": ["Rather smart, sophisticated and knowledgeable. But she enjoys playing the little girl part because it confuses and upsets people."],
+		"story": [
+			"<p>Embraced as a child by her own father in the 1800’s. Her father had just lost his wife and couldn’t bear to lose Penelope as well. He was executed for this unlawful Embrace. Penelope was left alone.</p>",
+			"<p>She spent time doing art but couldn’t pierce the market as a girl. She learned to use proxies for everything she does.</p>",
+			"<h2>Wants :</h2>",
+			"<p>- Why, more art, of course !</p>",
+			"<p>- And also she wishes to get back to the Sheriff one day for executing her dad.</p>"
 		]
 	}
 ]
