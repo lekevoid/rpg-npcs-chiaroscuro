@@ -26,7 +26,7 @@
 			"Knowledge": 0,
 			"Willpower": 0
 		},
-		"tips": ["Calm, composed. He's seen death. He's been surrounded by death. He's been forsaken by death. Doesn't really care about danger."],
+		"tips": ["Calm, composed. He's seen death. He's been forsaken by death. Doesn't care about danger."],
 		"story": [
 			"<p>Born in North Lawndale in 1975. Devout synagogue-goer. Knack for languages : Hebrew, Latin, Greek and Arabic among others. Awakening at 17 during his mother's funeral. He started having visions of death, drowning... he predicted the flood of 1992. Guided by these visions, prevented several deaths from occurring ; the Wheel hadn't turned for them yet.</p>",
 			"<p>A Chakravat accepted to teach him. The master was of Indian descent and they weren't connecting. Moran translated all the teachings to be more in line with his Jewish heritage, “translating” all the Hindu gods to Angels and demons. He worships mostly Azrael (death), Gabriel (messenger, destruction), Apollyon (abyss), and others.</p>",
@@ -44,13 +44,20 @@
 			"Entropy": 3,
 			"Time": 3
 		},
-		"tips": ["Not confident, but doesn't care. Acts like she has nothing to lose, which makes her dangerous."]
+		"tips": ["Not confident, but doesn't care. Acts like she has nothing to lose."]
 	},
 	{
 		"name": "Patricia Moxey",
 		"description": "32 y/o Etherite",
 		"logo": "society-of-ether",
-		"notableTraits": {},
+		"notableTraits": {
+			"Arete": 3,
+			"Correspondence": 2,
+			"Forces": 2,
+			"Matter": 3,
+			"Life": 3,
+			"Prime": 2
+		},
 		"story": [
 			"<p>Young Patricia was a prodigy with machines and electronics. She had a brilliant career ahead of her. Her dream as a child was to build a universal translator that would work by “reading thoughts”. In college she met Dominik Kostoff, an engineer who wanted to work on making cities more accessible. They eventually married.</p>",
 			"<p>Patricia got pregnant but got a miscarriage. Her Avatar told her something strange : that the child might have been lost because Patricia wasn't connected to reality. Shortly after, Dominik got into an accident and got a concussion. His brain got messed up. Over the following months his mental health degraded steadily. Patricia felt immense guilt, thinking she was responsible for his accident as well for not being “connected enough”. She started learning neurosciences and found a master of Life magick, a Native American shaman. Given that, she has an odd mix of science and Native American medicine as magick tools. She started experimenting on Dominik to stop his degradation. She doesn't want to turn him into a machine or improve him. Ut she dreams of getting him back to his old state.</p>",
@@ -62,13 +69,13 @@
 		"description": "",
 		"logo": "akashic",
 		"notableTraits": {
-			"Arete": 5,
+			"Arete": 4,
 			"Correspondence": 3,
 			"Entropy": 3,
-			"Spirit": 3,
 			"Forces": 2,
-			"Potence": 1,
-			"Fortitude": 1
+			"Mind": 4,
+			"Prime": 2,
+			"Time": 3
 		}
 	},
 	{
@@ -172,6 +179,27 @@
 		]
 	},
 	{
+		"name": "Maya Sinclair",
+		"description": "42 y/o Sahajiya",
+		"logo": "cult-of-ecstacy",
+		"notableTraits": {
+			"Arete": 3,
+			"Correspondence": 2,
+			"Entropy": 2,
+			"Life": 2,
+			"Mind": 1,
+			"Prime": 3,
+			"Spirit": 1,
+			"Time": 3
+		},
+		"tips": ["Encourages everyone to have reverence for life."],
+		"story": [
+			"<p>Born into a bohemian artistic family. Family's art studio burned down when she was a teenager, and she lost her sister Ella in the fire.</p>",
+			"<p>Suffers from survivor's guilt, and tries transcending suffering through ecstasy and spiritual union.</p>",
+			"<p>Aversion to drugs and conventional forms of hedonism. Loves dance, meditation, and exploration of altered states of consciousness. Time magick acts as a way to heal the wounds of the past.</p>"
+		]
+	},
+	{
 		"name": "Khalan Synesis",
 		"description": "60 y/o Hermetic Master",
 		"logo": "order-of-hermes",
@@ -199,7 +227,7 @@
 	},
 	{
 		"name": "Simon Theletos",
-		"description": "20 y/o Hermetic Adept",
+		"description": "20 y/o Hermetic Adept, bani Flambeau",
 		"logo": "order-of-hermes",
 		"notableTraits": {
 			"Arete": 3,
@@ -224,12 +252,13 @@
 		"description": "38 y/o Dreamspeaker Warrior-Shaman",
 		"logo": "dreamspeakers",
 		"notableTraits": {
-			"Arete": 3,
+			"Arete": 4,
 			"Correspondence": 2,
-			"Forces": 3,
-			"Matter": 2,
+			"Entropy": 2,
+			"Forces": 2,
+			"Life": 3,
 			"Prime": 3,
-			"Time": 1
+			"Spirit": 4
 		},
 		"tips": [
 			"In combat, fluid and precise, dance-like movements.",
@@ -272,5 +301,60 @@
 			"<p><b>Crystals</b> : Used on humans and also in her garden to promote plant growth, protection and health.</p>",
 			"<p><b>Massage</b> : She does Reiki, Tak Sen and others.</p>"
 		]
+	},
+	{
+		"name": "Vaishnavi Manjusha",
+		"description": "48 y/o Hermetic Adept, bani Tytalus",
+		"logo": "order-of-hermes",
+		"notableTraits": {
+			"Arete": 4,
+			"Correspondence": 2,
+			"Forces": 4,
+			"Matter": 1,
+			"Prime": 4,
+			"Spirit": 1
+		},
+		"tips": ["Austere and severe."],
+		"story": [
+			"<p>Feels like she's always been underestimated, and good only to marry and be useful to someone else.</p>",
+			"<p>Sees Simon Theletos as a potential rival even though she's his superior.</p>",
+			"<h2>Wants</h2>",
+			"<p>A higher position in the Order. Will do everything and obey all the rules to gain it.</p>",
+			"<h2>Likes</h2>",
+			"<p>Places extremely high value on autonomy, self-sufficiency.</p>"
+		]
+	},
+	{
+		"name": "Kuri",
+		"description": "Marauder",
+		"logo": "marauder",
+		"notableTraits": {
+			"Arete": 5,
+			"Correspondence": 3,
+			"Entropy": 5,
+			"Life": 5,
+			"Matter": 5,
+			"Prime": 2,
+			"Spirit": 4
+		},
+		"tips": ["Can only say \"Kuri\""],
+		"story": ["<h2>Quiet</h2>", "<p>Believes himself to be a Shinigami. It is his mission to bring death on a large scale.</p>"]
+	},
+	{
+		"name": "Sublime Servant of the Chūn Ministry",
+		"description": "Marauder",
+		"logo": "marauder",
+		"notableTraits": {
+			"Arete": 5,
+			"Correspondence": 3,
+			"Forces": 2,
+			"Life": 5,
+			"Matter": 5,
+			"Mind": 5,
+			"Prime": 2,
+			"Spirit": 4
+		},
+		"tips": ["I am on a divine mission to sustain life. Friends of death all are my targets."],
+		"story": [""]
 	}
 ]

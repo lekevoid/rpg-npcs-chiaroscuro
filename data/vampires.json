@@ -100,5 +100,19 @@
 			"<p>- Why, more art, of course !</p>",
 			"<p>- And also she wishes to get back to the Sheriff one day for executing her dad.</p>"
 		]
+	},
+	{
+		"name": "Kenrick",
+		"description": "Malkavian Elder with a Truman syndrome",
+		"logo": "malkavian",
+		"notableTraits": {
+			"Auspex": 3,
+			"Dementation": 5,
+			"Obfuscate": 4,
+			"Dominate": 3,
+			"Presence": 5
+		},
+		"tips": ["The world is literally a stage."],
+		"story": ["<p>Has Truman syndrome.</p>"]
 	}
 ]

@@ -16,7 +16,17 @@
 			</div>
 		</template>
 	</nav>
-	<section v-for="tab in tabs" :class="['page', `tab_${tab.slug}`, { active: activeTab === tab.slug }]" :key="`tab_content_${tab.slug}`">
+	<nav class="extra_options">
+		<div class="option_grayscale">
+			<input type="checkbox" v-model="isGrayscale" id="option_is_grayscale" />
+			<label for="option_is_grayscale">Grayscale</label>
+		</div>
+	</nav>
+	<section
+		v-for="tab in tabs"
+		:class="['page', `tab_${tab.slug}`, { active: activeTab === tab.slug }, { grayscale: isGrayscale }]"
+		:key="`tab_content_${tab.slug}`"
+	>
 		<template v-if="allCuratedLists[tab.slug]">
 			<div v-for="card in allCuratedLists[tab.slug]" class="portrait_card" :key="`char_card_${tab.slug}`">
 				<img :src="`/portraits/${card.slug}.jpg`" class="portrait_img" alt="" />
@@ -33,6 +43,7 @@ import allWerewolvesList from "@/data/werewolves.json";
 
 const activeTab = ref("mages");
 const characterRestrict = ref([]);
+const isGrayscale = ref(false);
 
 const tabs = [
 	{ label: "Humans", slug: "humans" },
@@ -127,6 +138,12 @@ const allCuratedLists = computed(() => {
 	}
 }
 
+.character_option {
+	label {
+		white-space: nowrap;
+	}
+}
+
 .portrait_img {
 	align-content: center;
 	display: flex;
@@ -136,11 +153,16 @@ const allCuratedLists = computed(() => {
 	width: 6.3cm;
 	object-fit: cover;
 	border: 1px solid #ddd;
-	filter: grayscale(1);
-	opacity: 0.7;
 
 	&:nth-child(8n) {
 		page-break-after: always;
+	}
+}
+
+.grayscale {
+	.portrait_img {
+		filter: grayscale(1);
+		opacity: 0.7;
 	}
 }
 </style>

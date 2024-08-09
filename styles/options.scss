@@ -1,5 +1,6 @@
 .characters_restrict {
 	display: none;
+	flex-flow: row wrap;
 	padding: 20px 10px;
 
 	.character_option {
@@ -14,10 +15,17 @@
 
 		label {
 			padding-left: 5px;
+			white-space: nowrap;
 		}
 	}
 
 	&.active {
 		display: flex;
 	}
+}
+
+.extra_options {
+	font-family: verdana;
+	font-size: 12px;
+	padding: 0px 10px;
 }
