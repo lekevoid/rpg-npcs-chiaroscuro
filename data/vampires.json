@@ -117,8 +117,8 @@
 	},
 	{
 		"name": "Neculai Ladislau",
-		"description": "Tzimisce Ancilla, Regent of the Anchorage Shelters",
-		"logo": "malkavian",
+		"description": "Tzimisce Ancilla, Anchorage Shelters Regent",
+		"logo": "tsimisce",
 		"notableTraits": {
 			"Animalism": 3,
 			"Auspex": 2,
@@ -126,7 +126,9 @@
 			"Dominate": 3,
 			"Fortitude": 3
 		},
-		"tips": ["The world is literally a stage."],
-		"story": ["<p>Has Truman syndrome.</p>"]
+		"tips": ["Heavy Romanian accent."],
+		"story": [
+			"<p>Inspired by homeless people. They have such fortitude, such adaptability. I was homeless myself until I was recruited by force into the Jyhad. I transcended the fate women by my sire, my pack... I outlived them all.</p>"
+		]
 	}
 ]
