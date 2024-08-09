@@ -351,5 +351,21 @@
 		},
 		"tips": ["I am on a divine mission to sustain life. Friends of death all are my targets."],
 		"story": [""]
+	},
+	{
+		"name": "Bruno Gorsitch",
+		"description": "Progenitor",
+		"logo": "progenitors",
+		"notableTraits": {
+			"Arete": 4,
+			"Correspondence": 1,
+			"Forces": 1,
+			"Life": 4,
+			"Matter": 3,
+			"Prime": 4,
+			"Time": 1
+		},
+		"tips": ["Slight Russian accent."],
+		"story": [""]
 	}
 ]

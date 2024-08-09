@@ -114,5 +114,19 @@
 		},
 		"tips": ["The world is literally a stage."],
 		"story": ["<p>Has Truman syndrome.</p>"]
+	},
+	{
+		"name": "Neculai Ladislau",
+		"description": "Tzimisce Ancilla, Regent of the Anchorage Shelters",
+		"logo": "malkavian",
+		"notableTraits": {
+			"Animalism": 3,
+			"Auspex": 2,
+			"Vicissitude": 4,
+			"Dominate": 3,
+			"Fortitude": 3
+		},
+		"tips": ["The world is literally a stage."],
+		"story": ["<p>Has Truman syndrome.</p>"]
 	}
 ]
