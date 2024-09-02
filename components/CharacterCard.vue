@@ -96,6 +96,6 @@ const { card } = defineProps(["card"]);
 	left: 10%;
 	top: 10%;
 	object-fit: contain;
-	opacity: 0.1;
+	opacity: 0.07;
 }
 </style>
