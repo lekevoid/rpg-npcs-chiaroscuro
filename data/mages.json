@@ -321,7 +321,7 @@
 		]
 	},
 	{
-		"name": "Kuri",
+		"name": "Caolán",
 		"description": "Marauder",
 		"logo": "marauder",
 		"notableTraits": {
@@ -333,7 +333,7 @@
 			"Prime": 2,
 			"Spirit": 4
 		},
-		"tips": ["Can only say \"Kuri\""],
+		"tips": [""],
 		"story": ["<h2>Quiet</h2>", "<p>Believes himself to be a Shinigami. It is his mission to bring death on a large scale.</p>"]
 	},
 	{
