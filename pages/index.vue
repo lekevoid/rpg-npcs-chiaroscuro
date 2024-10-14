@@ -12,16 +12,16 @@
 		</nav>
 	</header>
 	<nav v-for="tab in tabs" :class="['characters_restrict', { active: activeTab === tab.slug }]" :key="`characters_restrict_${tab.slug}`">
-		<template v-if="allLists[tab.slug]">
-			<div class="character_option" v-for="option in allLists[tab.slug]" :key="option.slug">
+		<template v-if="currentList">
+			<div class="character_option" v-for="option in currentList" :key="option.slug">
 				<input type="checkbox" v-model="characterRestrict" :id="`option_${option.slug}`" :value="option.slug" />
 				<label :for="`option_${option.slug}`">{{ option.name }}</label>
 			</div>
 		</template>
 	</nav>
 	<section v-for="tab in tabs" :class="['page', `tab_${tab.slug}`, { active: activeTab === tab.slug }]" :key="`tab_content_${tab.slug}`">
-		<template v-if="allCuratedLists[tab.slug]">
-			<CharacterCard v-for="card in allCuratedLists[tab.slug]" :card="card" :key="`char_card_${tab.slug}`" />
+		<template v-if="curatedList">
+			<CharacterCard v-for="card in curatedList" :card="card" :key="`char_card_${tab.slug}`" />
 		</template>
 	</section>
 </template>
@@ -33,8 +33,11 @@ import allVampiresList from "@/data/vampires.json";
 import allWerewolvesList from "@/data/werewolves.json";
 import allChangelingsList from "@/data/changelings.json";
 
-const activeTab = ref("mages");
-const characterRestrict = ref([]);
+import { useSessionStorage } from "@vueuse/core";
+
+const activeTab = useSessionStorage("activeTab", () => "mages");
+
+const characterRestrict = useSessionStorage("characterRestrict", () => []);
 
 const tabs = [
 	{ label: "Humans", slug: "humans" },
@@ -82,15 +85,6 @@ function addSlugsToList(initList) {
 	});
 }
 
-function curateCharList(initList) {
-	return initList.filter((character) => {
-		if (characterRestrict.value.length > 0 && !characterRestrict.value.includes(character.slug)) {
-			return false;
-		}
-		return true;
-	});
-}
-
 const allLists = computed(() => {
 	return {
 		humans: sortBySlug(addSlugsToList(allHumansList)),
@@ -101,14 +95,21 @@ const allLists = computed(() => {
 	};
 });
 
-const allCuratedLists = computed(() => {
-	return {
-		humans: curateCharList(sortBySlug(addSlugsToList(allHumansList))),
-		mages: curateCharList(sortBySlug(addSlugsToList(allMagesList))),
-		vampires: curateCharList(sortBySlug(addSlugsToList(allVampiresList))),
-		werewolves: curateCharList(sortBySlug(addSlugsToList(allWerewolvesList))),
-		changelings: curateCharList(sortBySlug(addSlugsToList(allChangelingsList))),
-	};
+const currentList = computed(() => {
+	return allLists.value[activeTab.value];
+});
+
+const curatedList = computed(() => {
+	return currentList.value.filter((character) => {
+		if (characterRestrict.value.length > 0 && !characterRestrict.value.includes(character.slug)) {
+			return false;
+		}
+		return true;
+	});
+});
+
+watch(activeTab, (newVal, oldVal) => {
+	if (newVal !== oldVal) characterRestrict.value = [];
 });
 </script>
 

@@ -1,8 +1,19 @@
 [
 	{
+		"name": "Bethania Servina",
+		"description": "Acolyte and servant of Gene",
+		"story": [
+			"<p>Betty used to be a receptionist at the Dunning Insane Asylum. Was extremely beautiful and admired. Used to be scared of Gene.</p>",
+			"<p>She got divorced, lost friends. Gene was the only one whose respect for her didn't change, event after she started gaining weight.</p>",
+			"<p>She helped Gene escape and got heavily reprimanded. Her work became a living hell until Gene came back and gave her the power to gith back against her abusive colleagues.</p>"
+		],
+		"notableTraits": {},
+		"tips": [""]
+	},
+	{
 		"name": "Tayebeh Zinah",
 		"description": "17 y/o human. Called “Taï”",
-		"story": "",
+		"story": [""],
 		"notableTraits": {},
 		"tips": ["Favors folding knives, darts and needle-shooting.", "Passionate about poisons."]
 	}
