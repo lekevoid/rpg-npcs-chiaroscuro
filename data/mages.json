@@ -368,5 +368,36 @@
 		},
 		"tips": ["Slight Russian accent."],
 		"story": [""]
+	},
+	{
+		"name": "Yuri Masuda",
+		"description": "NWO Bureaucrat",
+		"logo": "NWO",
+		"notableTraits": {
+			"Arete": 4
+		},
+		"tips": [""],
+		"story": [
+			"<p>Izumi Sayaka's half-sister.</p>",
+			"<p>Bullied mercilessly as a child in post-war Japan, physical retaliation was impossible. Instead, she observed. Learned how a whispered rumour could isolate a tormentor, how forged permission slips could grant access to forbidden areas, how manipulating school records could shift the blame for a prank.  Talent for control blossomed in the NWO. Master of bureaucratic warfare, wielding regulations and laws like weapons.</p>",
+			"<h2>Wants</h2>",
+			"<p>A pristine, first-edition copy of The Book of Five Rings - a symbol of both power and the martial prowess she never possessed.</p>"
+		]
+	},
+	{
+		"name": "Izumi Sayaka",
+		"description": "NWO Operative",
+		"logo": "NWO",
+		"notableTraits": {
+			"Arete": 4
+		},
+		"tips": [""],
+		"story": [
+			"<p>Yuri Masuda's half-sister.</p>",
+			"<p>Abusive father. Got into street life and street fights a lot. Being a woman, learned how to fight but also avoid fights and send other to do her bidding so she stays safe.</p>",
+			"<p>Has a partner who's an Iteration X cyborg, handling most of the direct violence ; think of Maw and Cull Obsidian in New York.</p>",
+			"<h2>Wants</h2>",
+			"<p>Izumi secretly collects antique dolls, meticulously restoring them to their original beauty - a stark contrast to her violent profession and a hidden desire for connection and nurturing.</p>"
+		]
 	}
 ]
